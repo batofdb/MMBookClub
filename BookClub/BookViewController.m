@@ -12,7 +12,7 @@
 @interface BookViewController () <UITableViewDataSource, UITableViewDelegate>
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 @property NSManagedObjectContext *moc;
-@property NSArray *comments;
+@property (nonatomic) NSArray *comments;
 
 @end
 
@@ -23,6 +23,12 @@
     AppDelegate *delegate = [[UIApplication sharedApplication] delegate];
     self.moc = delegate.managedObjectContext;
     self.title = self.book.title;
+    self.comments = [self.book.commentList allObjects];
+}
+
+- (void)setComments:(NSArray *)comments {
+    _comments = comments;
+    [self.tableView reloadData];
 }
 
 -(void)load{
@@ -38,7 +44,7 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell"];
-    cell.textLabel.text = self.comments[indexPath.row];
+    cell.textLabel.text = [self.comments[indexPath.row] comment];
     return cell;
 }
 
@@ -61,8 +67,9 @@
                                       self.moc];
         [comment setValue:commentString forKey:@"comment"];
 
+        [self.book addCommentListObject:comment];
         [self.moc save:nil];
-        [self load];
+        self.comments = [self.book.commentList allObjects];
     }];
     UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:@"Cancel" style:UIAlertActionStyleCancel handler:^(UIAlertAction *action) {
     }];

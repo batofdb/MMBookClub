@@ -37,8 +37,9 @@
 }
 
 -(void)load{
-    NSFetchRequest *request = [[NSFetchRequest alloc]initWithEntityName:@"Reader"];
 
+    NSFetchRequest *request = [[NSFetchRequest alloc]initWithEntityName:@"Reader"];
+    //request.sortDescriptors = @[[NSSortDescriptor sortDescriptorWithKey:@"readingList.count" ascending:NO selector:@selector(localizedStandardCompare:)]];
     request.predicate = [NSPredicate predicateWithFormat:@"isFriend = 1"];
     self.friends = [[NSArray alloc]initWithArray:[self.moc executeFetchRequest:request error:nil]];
 
