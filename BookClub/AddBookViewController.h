@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  AddBookViewController.h
 //  BookClub
 //
 //  Created by Francis Bato on 10/21/15.
@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Reader+CoreDataProperties.h"
 
-@interface ViewController : UIViewController
 
+@interface AddBookViewController : UIViewController
+
+@property Reader *reader;
 
 @end
-

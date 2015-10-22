@@ -7,15 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		47346C401BD87A7900406937 /* FriendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47346C3F1BD87A7900406937 /* FriendViewController.m */; settings = {ASSET_TAGS = (); }; };
+		47346C591BD88AA800406937 /* Reader+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 47346C4E1BD88AA800406937 /* Reader+CoreDataProperties.m */; settings = {ASSET_TAGS = (); }; };
+		47346C5A1BD88AA800406937 /* Reader.m in Sources */ = {isa = PBXBuildFile; fileRef = 47346C501BD88AA800406937 /* Reader.m */; settings = {ASSET_TAGS = (); }; };
+		47346C5B1BD88AA800406937 /* Comment+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 47346C521BD88AA800406937 /* Comment+CoreDataProperties.m */; settings = {ASSET_TAGS = (); }; };
+		47346C5C1BD88AA800406937 /* Comment.m in Sources */ = {isa = PBXBuildFile; fileRef = 47346C541BD88AA800406937 /* Comment.m */; settings = {ASSET_TAGS = (); }; };
+		47346C5D1BD88AA800406937 /* Book+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 47346C561BD88AA800406937 /* Book+CoreDataProperties.m */; settings = {ASSET_TAGS = (); }; };
+		47346C5E1BD88AA800406937 /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = 47346C581BD88AA800406937 /* Book.m */; settings = {ASSET_TAGS = (); }; };
 		47AB51051BD82C6100323CBA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 47AB51041BD82C6100323CBA /* main.m */; };
 		47AB51081BD82C6100323CBA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 47AB51071BD82C6100323CBA /* AppDelegate.m */; };
-		47AB510B1BD82C6100323CBA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47AB510A1BD82C6100323CBA /* ViewController.m */; };
 		47AB510E1BD82C6100323CBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47AB510C1BD82C6100323CBA /* Main.storyboard */; };
 		47AB51111BD82C6100323CBA /* BookClub.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 47AB510F1BD82C6100323CBA /* BookClub.xcdatamodeld */; };
 		47AB51131BD82C6100323CBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47AB51121BD82C6100323CBA /* Assets.xcassets */; };
 		47AB51161BD82C6100323CBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47AB51141BD82C6100323CBA /* LaunchScreen.storyboard */; };
 		47AB51211BD82C6100323CBA /* BookClubTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 47AB51201BD82C6100323CBA /* BookClubTests.m */; };
 		47AB512C1BD82C6100323CBA /* BookClubUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 47AB512B1BD82C6100323CBA /* BookClubUITests.m */; };
+		47AB513E1BD82CDE00323CBA /* ReadersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47AB513D1BD82CDE00323CBA /* ReadersViewController.m */; settings = {ASSET_TAGS = (); }; };
+		47AB515B1BD8572500323CBA /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47AB515A1BD8572500323CBA /* ProfileViewController.m */; settings = {ASSET_TAGS = (); }; };
+		47AB515E1BD8588200323CBA /* AddBookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47AB515D1BD8588200323CBA /* AddBookViewController.m */; settings = {ASSET_TAGS = (); }; };
+		47AB51611BD858C300323CBA /* BookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47AB51601BD858C300323CBA /* BookViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,12 +46,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		47346C3E1BD87A7900406937 /* FriendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendViewController.h; sourceTree = "<group>"; };
+		47346C3F1BD87A7900406937 /* FriendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendViewController.m; sourceTree = "<group>"; };
+		47346C4D1BD88AA800406937 /* Reader+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Reader+CoreDataProperties.h"; sourceTree = "<group>"; };
+		47346C4E1BD88AA800406937 /* Reader+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Reader+CoreDataProperties.m"; sourceTree = "<group>"; };
+		47346C4F1BD88AA800406937 /* Reader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reader.h; sourceTree = "<group>"; };
+		47346C501BD88AA800406937 /* Reader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reader.m; sourceTree = "<group>"; };
+		47346C511BD88AA800406937 /* Comment+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Comment+CoreDataProperties.h"; sourceTree = "<group>"; };
+		47346C521BD88AA800406937 /* Comment+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Comment+CoreDataProperties.m"; sourceTree = "<group>"; };
+		47346C531BD88AA800406937 /* Comment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Comment.h; sourceTree = "<group>"; };
+		47346C541BD88AA800406937 /* Comment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Comment.m; sourceTree = "<group>"; };
+		47346C551BD88AA800406937 /* Book+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Book+CoreDataProperties.h"; sourceTree = "<group>"; };
+		47346C561BD88AA800406937 /* Book+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Book+CoreDataProperties.m"; sourceTree = "<group>"; };
+		47346C571BD88AA800406937 /* Book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
+		47346C581BD88AA800406937 /* Book.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
 		47AB51001BD82C6100323CBA /* BookClub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookClub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47AB51041BD82C6100323CBA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		47AB51061BD82C6100323CBA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		47AB51071BD82C6100323CBA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		47AB51091BD82C6100323CBA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		47AB510A1BD82C6100323CBA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		47AB510D1BD82C6100323CBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		47AB51101BD82C6100323CBA /* BookClub.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BookClub.xcdatamodel; sourceTree = "<group>"; };
 		47AB51121BD82C6100323CBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -53,6 +75,14 @@
 		47AB51271BD82C6100323CBA /* BookClubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookClubUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		47AB512B1BD82C6100323CBA /* BookClubUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BookClubUITests.m; sourceTree = "<group>"; };
 		47AB512D1BD82C6100323CBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47AB513C1BD82CDE00323CBA /* ReadersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReadersViewController.h; sourceTree = "<group>"; };
+		47AB513D1BD82CDE00323CBA /* ReadersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReadersViewController.m; sourceTree = "<group>"; };
+		47AB51591BD8572500323CBA /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		47AB515A1BD8572500323CBA /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		47AB515C1BD8588200323CBA /* AddBookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddBookViewController.h; sourceTree = "<group>"; };
+		47AB515D1BD8588200323CBA /* AddBookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddBookViewController.m; sourceTree = "<group>"; };
+		47AB515F1BD858C300323CBA /* BookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookViewController.h; sourceTree = "<group>"; };
+		47AB51601BD858C300323CBA /* BookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,10 +133,10 @@
 		47AB51021BD82C6100323CBA /* BookClub */ = {
 			isa = PBXGroup;
 			children = (
+				47AB51401BD8344C00323CBA /* Model */,
+				47AB513F1BD830C100323CBA /* View */,
 				47AB51061BD82C6100323CBA /* AppDelegate.h */,
 				47AB51071BD82C6100323CBA /* AppDelegate.m */,
-				47AB51091BD82C6100323CBA /* ViewController.h */,
-				47AB510A1BD82C6100323CBA /* ViewController.m */,
 				47AB510C1BD82C6100323CBA /* Main.storyboard */,
 				47AB51121BD82C6100323CBA /* Assets.xcassets */,
 				47AB51141BD82C6100323CBA /* LaunchScreen.storyboard */,
@@ -141,6 +171,42 @@
 				47AB512D1BD82C6100323CBA /* Info.plist */,
 			);
 			path = BookClubUITests;
+			sourceTree = "<group>";
+		};
+		47AB513F1BD830C100323CBA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				47AB513C1BD82CDE00323CBA /* ReadersViewController.h */,
+				47AB513D1BD82CDE00323CBA /* ReadersViewController.m */,
+				47AB51591BD8572500323CBA /* ProfileViewController.h */,
+				47AB515A1BD8572500323CBA /* ProfileViewController.m */,
+				47AB515C1BD8588200323CBA /* AddBookViewController.h */,
+				47AB515D1BD8588200323CBA /* AddBookViewController.m */,
+				47AB515F1BD858C300323CBA /* BookViewController.h */,
+				47AB51601BD858C300323CBA /* BookViewController.m */,
+				47346C3E1BD87A7900406937 /* FriendViewController.h */,
+				47346C3F1BD87A7900406937 /* FriendViewController.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		47AB51401BD8344C00323CBA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				47346C4D1BD88AA800406937 /* Reader+CoreDataProperties.h */,
+				47346C4E1BD88AA800406937 /* Reader+CoreDataProperties.m */,
+				47346C4F1BD88AA800406937 /* Reader.h */,
+				47346C501BD88AA800406937 /* Reader.m */,
+				47346C511BD88AA800406937 /* Comment+CoreDataProperties.h */,
+				47346C521BD88AA800406937 /* Comment+CoreDataProperties.m */,
+				47346C531BD88AA800406937 /* Comment.h */,
+				47346C541BD88AA800406937 /* Comment.m */,
+				47346C551BD88AA800406937 /* Book+CoreDataProperties.h */,
+				47346C561BD88AA800406937 /* Book+CoreDataProperties.m */,
+				47346C571BD88AA800406937 /* Book.h */,
+				47346C581BD88AA800406937 /* Book.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,9 +339,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				47AB510B1BD82C6100323CBA /* ViewController.m in Sources */,
+				47346C401BD87A7900406937 /* FriendViewController.m in Sources */,
+				47AB513E1BD82CDE00323CBA /* ReadersViewController.m in Sources */,
+				47346C5B1BD88AA800406937 /* Comment+CoreDataProperties.m in Sources */,
+				47AB515B1BD8572500323CBA /* ProfileViewController.m in Sources */,
+				47346C591BD88AA800406937 /* Reader+CoreDataProperties.m in Sources */,
+				47346C5A1BD88AA800406937 /* Reader.m in Sources */,
 				47AB51081BD82C6100323CBA /* AppDelegate.m in Sources */,
+				47346C5C1BD88AA800406937 /* Comment.m in Sources */,
 				47AB51111BD82C6100323CBA /* BookClub.xcdatamodeld in Sources */,
+				47346C5D1BD88AA800406937 /* Book+CoreDataProperties.m in Sources */,
+				47AB51611BD858C300323CBA /* BookViewController.m in Sources */,
+				47AB515E1BD8588200323CBA /* AddBookViewController.m in Sources */,
+				47346C5E1BD88AA800406937 /* Book.m in Sources */,
 				47AB51051BD82C6100323CBA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -500,6 +576,7 @@
 				47AB51321BD82C6100323CBA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		47AB51331BD82C6100323CBA /* Build configuration list for PBXNativeTarget "BookClubTests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +585,7 @@
 				47AB51351BD82C6100323CBA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		47AB51361BD82C6100323CBA /* Build configuration list for PBXNativeTarget "BookClubUITests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +594,7 @@
 				47AB51381BD82C6100323CBA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
